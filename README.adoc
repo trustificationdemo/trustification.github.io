@@ -1,0 +1,9 @@
+
+Source repo for https://trustification.io[trustification.io]
+
+To add a post:
+
+      . Add a markdown file beneath link:./_posts/[_posts] named according to this format: `2022-10-20-some-name.md`
+      . Commit your changes and push to `gh-pages` branch to publish
+
+That's it.
