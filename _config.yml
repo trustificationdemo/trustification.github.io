@@ -20,7 +20,9 @@
 
 title: Trustification
 description: >- # this means to ignore newlines until "baseurl:"
-  Making Software Supply Chains easier to trust.
+  A community, vendor-neutral, thought-leadering, mostly informational
+  collection of resources devoted to making Software Supply Chains
+  easier to create, manage, consume... and trust!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: trustification
