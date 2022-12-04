@@ -37,3 +37,7 @@ $ bundle exec jekyll serve
 ----
 
 You should now be able to open http://127.0.0.1:4000/ in a browser.
+
+If the blog post you are working on is not getting displayed locally, check that
+the `date` in the blog post header is not in the future as in that case it will
+not get generated.
