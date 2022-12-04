@@ -1,9 +1,39 @@
 
 Source repo for https://trustification.io[trustification.io]
 
-To add a post:
+== Add a post
 
       . Add a markdown file beneath link:./_posts/[_posts] named according to this format: `2022-10-20-some-name.md`
       . Commit your changes and push to `gh-pages` branch to publish
 
 That's it.
+
+== Running locally
+
+Make sure that you have `Ruby` install which can be installed using
+link:https://rvm.io[rvm]:
+[shell]
+----
+$ rvm install 3.0.0
+$ rvm --default use 3.0.0
+----
+
+Install `bundler` and `jekyll`:
+[shell]
+----
+$ gem install jekyll bundler
+----
+
+Install the gems required (from Gemfile):
+[shell]
+----
+$ bundle install
+----
+
+Run jekyll:
+[shell]
+----
+$ bundle exec jekyll serve
+----
+
+You should now be able to open http://127.0.0.1:4000/ in a browser.
