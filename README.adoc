@@ -12,6 +12,16 @@ That's it.
 
 Make sure that you have `Ruby` install which can be installed using
 link:https://rvm.io[rvm]:
+
+If you are using Fedora 37, or later, then you'll need to use the following
+instructions due to Fedora 37 using OpenSSL 3.0:
+[shell]
+----
+$ rvm pkg install openssl
+$ rvm install ruby-3.0.0 --with-openssl-dir=$HOME/.rvm/usr
+$ rvm --default use 3.0.0
+----
+Otherwise follow these instructions:
 [shell]
 ----
 $ rvm install 3.0.0
