@@ -19,7 +19,7 @@ export const Hero = () => {
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="trustification.dev"
+                href="https://trustification.dev"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-orange-600 rounded-md "
@@ -42,12 +42,32 @@ export const Hero = () => {
             <img
               src="img/hero.png"
               width="616"
-              height="617"
+              height="300"
               className={"object-cover"}
               alt="Hero"
               loading="eager"
               placeholder="blur"
             />
+          </div>
+        </div>
+      </Container>
+      <Container>
+        <div className="flex flex-col justify-center">
+          <div className="text-xl text-center text-gray-700 dark:text-white">
+            Making Software Supply Chains easier to trust
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
+            <div className="pt-2 text-gray-400 dark:text-gray-400">
+              <img
+                src="img/chain.png"
+                height="200"
+                className={"object-cover"}
+                alt="Hero"
+                loading="eager"
+                placeholder="blur"
+              />
+            </div>
           </div>
         </div>
       </Container>

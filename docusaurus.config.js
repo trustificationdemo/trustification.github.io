@@ -9,7 +9,7 @@ const config = {
   title: "Trustification",
   tagline:
     "A community, vendor-neutral, thought-leadering, mostly informational collection of resources devoted to making Software Supply Chains easier to create, manage, consume and ultimately… to trust!",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.svg",
 
   // Set the production url of your site here
   url: "https://trustification.io",
@@ -91,9 +91,13 @@ const config = {
           {
             title: "Docs",
             items: [
+              // {
+              //   label: "Documentation",
+              //   to: "/docs/intro",
+              // },
               {
-                label: "Documentation",
-                to: "/docs/intro",
+                label: "Blog",
+                to: "/blog",
               },
             ],
           },
@@ -109,10 +113,10 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
+              // {
+              //   label: "Blog",
+              //   to: "/blog",
+              // },
               {
                 label: "GitHub",
                 href: "https://github.com/trustification",
